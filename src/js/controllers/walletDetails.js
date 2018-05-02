@@ -85,6 +85,7 @@ angular.module('copayApp.controllers').controller('walletDetailsController', fun
         }
       }
 
+      refreshAmountSection();
       $timeout(function() {
         $scope.$apply();
       });
